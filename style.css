@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family:'Poppins',sans-serif ;
+}
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 40px;
+
+}
+
+.logo img{
+    width:200px;
+    position: relative;
+    left:70px;
+}
+
+nav ul{
+    list-style:none;
+}
+
+nav ul li{
+    display:inline-block;
+    padding:5px;
+}
+
+nav ul li a{
+    position: relative;
+    right:70px;
+    text-decoration: none;
+    color:#222;
+    margin:16px;
+    font-size:17px;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    transition:all 0.7s ease ;
+}
+
+nav ul li a:hover{
+    color: #f1a28e;
+}
+
+.r{
+    border-radius: 8px;
+    background: #3cfafa;
+    border:none;
+    padding: 13px 30px;
+    color:#000;
+}
+
+.r:hover{
+    background-color:  #f64bfc;
+    color:#fff;
+}
+
+/* showcase */
+
+.showcase{
+    max-width:650px;
+}
+
+.showcase-text{
+    margin-top:200px;
+    margin-left:100px;
+    
+}
+
+.showcase-text h1{
+    text-transform: capitalize;
+    font-size:23px;
+    font-weight: 700;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom:6px;
+}
+
+.showcase-text p{
+font-size:15px;
+font-family: sans-serif;
+margin-bottom: 20px;;
+
+}
+
+.showcase-text a{
+    text-decoration: none;
+    background:#3cfafa;
+    color:#000;
+    padding:10px 16px;
+    border-radius: 6px;
+    transition: ease 0.6s;
+}
+
+.showcase-text a:hover{
+    background:#f64bfc;
+}
+
+.showcase-image{
+    width:100%;
+    position:relative;
+    left:700px;
+    bottom:350px;
+}
+
+.showcase-image img{
+    width:550px;;
+}
+
+/* product */
+
+
+.tittle{
+    color:#000;
+    text-transform: capitalize;
+    text-align: center;
+    font-size:21px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.product{
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+    margin: 150px;
+}
+  
+  .col-image {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .prdouct-text {
+    text-align: center;
+  }
+  
+  .prdouct-text h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .prdouct-text p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+.col-image img{
+    width:100%;
+
+}
+
+
+.col-image:hover{
+    padding:5px;
+}
+
+
+
+
+/* about */
+
+.about-section .container{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.about-image{
+    width:150px;
+    background: #777;
+}
